@@ -33,9 +33,9 @@ public class Config {
 				.host("localhost")
 				.port(5432)
 				.database("vectordb")
-				.user("root")
-				.password("root")
-				.table("pdf-chat")
+				.user("testuser")
+				.password("testpwd")
+				.table("test")
 				.dimension(384)
 				.build();
 	}

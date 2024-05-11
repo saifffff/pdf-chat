@@ -23,11 +23,11 @@ import static dev.langchain4j.data.document.loader.FileSystemDocumentLoader.load
 public class PdfChatBackendApplication {
 	
 	private EmbeddingStoreIngestor embeddingStoreIngestor;
-	private String apiUrl;
 	
-	public PdfChatBackendApplication(EmbeddingStoreIngestor embeddingStoreIngestor, String apiUrl) {
+	
+	public PdfChatBackendApplication(EmbeddingStoreIngestor embeddingStoreIngestor) {
 		this.embeddingStoreIngestor = embeddingStoreIngestor;
-		this.apiUrl = apiUrl;
+		
 	}
 
 	@PostConstruct
